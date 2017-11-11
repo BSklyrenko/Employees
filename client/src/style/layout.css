@@ -1,0 +1,24 @@
+.layout {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.layout__nav {
+  width: 150px;
+  border-right: 1px solid #EEE;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.layout__nav ul {
+  list-style: none;
+}
+
+.layout__link {
+  margin-bottom: 10px;
+}
+
+.layout__main {
+  flex-grow: 1;
+  padding: 20px;
+}
